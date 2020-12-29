@@ -1,0 +1,6 @@
+# List of the plugins to be bundled into the docker image.
+# Bundled plugins can be found here: https://binaries.sonarsource.com/Distribution/
+
+https://github.com/devcon5io/mutation-analysis-plugin/releases/download/v1.5/mutation-analysis-plugin-1.5.jar
+https://github.com/jensgerdes/sonar-pmd/releases/download/3.2.1/sonar-pmd-plugin-3.2.1.jar
+https://github.com/racodond/sonar-gherkin-plugin/releases/download/1.7/sonar-gherkin-plugin-1.7.jar
