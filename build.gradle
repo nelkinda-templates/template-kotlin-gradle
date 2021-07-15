@@ -6,7 +6,7 @@ plugins {
     id 'info.solidsoft.pitest' version '1.6.0'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'io.gitlab.arturbosch.detekt' version '1.16.0'
-    id 'org.jlleitschuh.gradle.ktlint' version '10.0.0'
+    id 'org.jlleitschuh.gradle.ktlint' version '10.1.0'
 }
 
 group 'com.nelkinda.templates' // TODO change
@@ -37,7 +37,7 @@ dependencyManagement {
             entry 'junit-jupiter-engine'
             entry 'junit-jupiter-params'
         }
-        dependencySet(group: 'org.junit.platform', version: '1.7.1') {
+        dependencySet(group: 'org.junit.platform', version: '1.7.2') {
             entry 'junit-platform-commons'
             entry 'junit-platform-engine'
         }
