@@ -43,7 +43,7 @@ dependencyManagement {
         }
         dependency 'org.mockito:mockito-core:3.11.2'
         dependency 'org.pitest:pitest-junit5-plugin:0.14'
-        dependency 'org.pitest:pitest-command-line:1.6.8'
+        dependency 'org.pitest:pitest-command-line:1.7.0'
     }
 }
 dependencies {
