@@ -20,7 +20,7 @@ repositories {
 
 dependencyManagement {
     dependencies {
-        dependency 'com.puppycrawl.tools:checkstyle:9.0'
+        dependency 'com.puppycrawl.tools:checkstyle:9.0.1'
         dependencySet(group: 'io.cucumber', version: '6.11.0') {
             entry 'cucumber-java'
             entry 'cucumber-junit'
@@ -44,7 +44,7 @@ dependencyManagement {
         dependency 'org.junit.vintage:junit-vintage-engine:5.8.1'
         dependency 'org.mockito:mockito-core:3.12.4'
         dependency 'org.pitest:pitest-junit5-plugin:0.15'
-        dependency 'org.pitest:pitest-command-line:1.7.0'
+        dependency 'org.pitest:pitest-command-line:1.7.1'
     }
 }
 dependencies {
