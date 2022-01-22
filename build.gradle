@@ -22,7 +22,6 @@ dependencyManagement {
     dependencies {
         dependencySet(group: 'io.cucumber', version: '7.2.3') {
             entry 'cucumber-java'
-            entry 'cucumber-junit'
             entry 'cucumber-junit-platform-engine'
         }
         dependencySet(group: 'org.junit.jupiter', version: '5.8.2') {
@@ -39,7 +38,6 @@ dependencyManagement {
             entry 'junit-platform-suite-commons'
             entry 'junit-platform-suite-engine'
         }
-        dependency 'org.junit.vintage:junit-vintage-engine:5.8.2'
         dependency 'org.mockito:mockito-core:4.2.0'
         dependency 'org.pitest:pitest-junit5-plugin:0.15'
         dependency 'org.pitest:pitest-command-line:1.7.3'
@@ -49,7 +47,6 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
 
     testImplementation 'io.cucumber:cucumber-java'
-    testImplementation 'io.cucumber:cucumber-junit'
     testImplementation 'io.cucumber:cucumber-junit-platform-engine'
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'org.junit.jupiter:junit-jupiter-api'
