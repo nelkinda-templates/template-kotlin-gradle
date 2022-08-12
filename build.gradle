@@ -1,5 +1,5 @@
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.6.10'
+    id 'org.jetbrains.kotlin.jvm' version '1.7.10'
     id 'name.remal.sonarlint' version '1.5.0'
     id 'org.sonarqube' version '3.3'
     id 'jacoco'
@@ -12,7 +12,7 @@ plugins {
 group 'com.nelkinda.templates' // TODO change
 version '0.0.1-SNAPSHOT'
 
-sourceCompatibility = 17
+sourceCompatibility = 18
 
 repositories {
     mavenCentral()
@@ -90,7 +90,7 @@ test.finalizedBy jacocoTestReport
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
     kotlinOptions {
         freeCompilerArgs = ["-Xjsr305=strict", "-Xjvm-default=enable"]
-        jvmTarget = "17"
+        jvmTarget = "18"
     }
 }
 
